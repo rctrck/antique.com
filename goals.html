@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Antique</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="offerings.html">OFFERINGS</a></li>
+                        <li><a href="goals.html">GOALS</a></li>
+                        <li><a href="infos.html">INFOS</a></li>
+                        <li><a href="contacts.html">CONTACTS</a></li>
+                        <li><a href="location.html">LOCATION</a></li>
+                        <li><a href="more.html">MORE</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+          <h1>Goals</h1>
+
+        </section>
+
+        <section class="goals-content">
+            <div class="goals-left">
+                <h2>Mission</h2>
+                <p>Antique will be giving the highest degree of excellent service and will serve the best quality of different types of coffee, additionally giving our customers the perfect view and vibes of the past.
+                </p>
+            </div>
+            <div class="goals-right">
+                <h2>Vision</h2>
+                <p>Antique will serve happiness to our customers through giving them a nice view, excellent service to serve a high-quality coffee, and make them reminisce about the memories of the past.
+                </p>
+            </div>
+        </section>
+        
+
+       
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Our company plans to succeed in every part of our business; in our product, ethics, and disciplines that our employees should have. <br>We aim to bring joy and create memorable moments.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-google"></i>
+            </div>
+        </section>
+
+
+        <!-------JavaScript for Toggle Menu-------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+    </body>
+</html>
